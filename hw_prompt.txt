@@ -1,0 +1,25 @@
+In this assignment, you will enhance your existing project by 
+integrating Flask-JWT-Extended for authentication. Your goal is 
+to configure your Flask app to use JWT (JSON Web Tokens) 
+to secure specific routes. 
+
+Using your project's virtual environment, install Flask-JWT-Extended by running the following command:
+pip install flask-jwt-extended
+Update your Flask app configuration to include JWT settings.
+Configure JWT with a secret key for token creation and validation.
+Choose a few routes that require authentication and protect them using 
+Flask-JWT-Extended decorators.
+For example, use @jwt_required() to ensure that only users with 
+valid JWT tokens can access these routes.
+Test the protected routes with valid and invalid JWT tokens 
+to ensure proper authentication and authorization.
+Handle cases where users don't have valid tokens or are 
+trying to access protected routes without authentication.
+
+Verify that the specified routes are protected and only 
+accessible with valid JWT tokens.  Upload your modified 
+codebase to the designated repository.
+
+Consider implementing token expiration and refreshing 
+mechanisms for added security.Document any challenges 
+faced during the integration process and how they were resolved.

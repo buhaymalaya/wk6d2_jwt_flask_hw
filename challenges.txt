@@ -1,0 +1,7 @@
+Issue/s:
+When trying to flask run, encountered multiple errors:
+Module not found (module specified)
+
+Resolution/s:
+Googled/stack overflow
+Attempted presented solutions
